@@ -7,6 +7,7 @@ import SmallCard from '../components/SmallCard';
 import getLocationCategories from '../firebase/getLocationCategories';
 import MediumCard from '../components/MediumCard';
 import LargeCard from '../components/LargeCard';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [locations, setLocations] = useState([]);
@@ -65,6 +66,7 @@ const Home = () => {
           buttonText='Get Inspired'
         />
       </main>
+      <Footer />
     </div>
   );
 };
